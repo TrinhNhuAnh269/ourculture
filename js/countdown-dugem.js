@@ -25,7 +25,7 @@
                      countdown = document.getElementByClassName("countdown"),
                      content = document.getElementById("content");
 
-                 headline.innerText = "It's my birthday!";
+                 headline.innerText = "Hurry up!";
                  countdown.style.display = "none";
                  content.style.display = "block";
 
