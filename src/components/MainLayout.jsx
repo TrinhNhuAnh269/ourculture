@@ -46,11 +46,11 @@ const MainLayout = ({ children }) => {
                   <span className="main-menu-btn-icon"></span> Toggle main menu visibility
                 </label>
                 <ul id="main-menu" className="sm sm-clean">
-                  <li className="menu-item"><a href="/" className="menu-link active">Home</a></li>
-                  <li class="menu-item"><a href="/about" class="menu-link">About</a></li>
-                  <li class="menu-item"><a href="/event" class="menu-link">Event</a></li>
-                  <li class="menu-item"><a href="/blog" class="menu-link">News</a></li>
-                  <li class="menu-item"><a href="/contact" class="menu-link">Contact</a></li>
+                      <li className="menu-item"><a href="/" className="menu-link active">Home</a></li>
+                      <li className="menu-item"><a href="/about" className="menu-link">About</a></li>
+                      <li className="menu-item"><a href="/event" className="menu-link">Event</a></li>
+                      <li className="menu-item"><a href="/blog" className="menu-link">News</a></li>
+                      <li className="menu-item"><a href="/contact" className="menu-link">Contact</a></li>
                 </ul>
               </nav>
             </div>
