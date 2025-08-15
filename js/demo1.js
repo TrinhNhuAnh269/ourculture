@@ -49,4 +49,8 @@
 
 	init();
 
-})(window);
+})(window.addEventListener("DOMContentLoaded", () => {
+  const el = document.querySelector('#myElement');
+  // các xử lý khác
+})
+);
