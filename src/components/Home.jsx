@@ -13,7 +13,7 @@ const Home = () => {
                     </div>
                     <div class="video-background">
                         <video autoplay muted loop id="myVideo">
-                            <source src="img/concert-loop.mp4" type="video/mp4"/>
+                            <source src="./img/concert-loop.mp4" type="video/mp4"/>
                         </video>
                     </div>
                 </div>

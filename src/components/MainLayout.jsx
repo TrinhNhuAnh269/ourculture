@@ -38,7 +38,7 @@ const MainLayout = ({ children }) => {
               <div className="header-content-left clearfix">
                 <div className="logo">
                   <NavLink to="/" end>
-                    <img src="/main-layout/img/dugem-logos.png" alt="Dugem Logo" />
+                    <img src="./img/dugem-logos.png" alt="Dugem Logo" />
                   </NavLink>
                 </div>
               </div>
@@ -198,7 +198,7 @@ const MainLayout = ({ children }) => {
                   <div className="logo-footer">
                     <NavLink to="/" end>
                       <img
-                        src="/main-layout/img/dugem-logos.png"
+                        src="./img/dugem-logos.png"
                         alt="Logo-Footer"
                       />
                     </NavLink>
