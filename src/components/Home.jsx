@@ -24,7 +24,7 @@ const Home = () => {
                                 <div class="item-content">
                                     <div class="img-header">
                                         <a class="pattern" href="#">
-                                            <img src="img/event-img.png" alt="event-img"/>
+                                            <img src="./img/event-img.png" alt="event-img"/>
                                         </a>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@ const Home = () => {
                                 <td class="event-date">26/09/2021</td>
                                 <td class="event-thumb">
                                     <a href="single-event.html">
-                                        <img width="70" height="100" src="img/upcoming-event-1.png" alt="table-1"/> 
+                                        <img width="70" height="100" src="./img/upcoming-event-1.png" alt="table-1"/> 
                                     </a>
                                 </td>
                                 <td class="event-artist">DJ Ocean &amp; DJ Thunder</td>
@@ -115,7 +115,7 @@ const Home = () => {
                                 <td class="event-date">26/03/2021</td>
                                 <td class="event-thumb">
                                     <a href="single-event.html">
-                                        <img width="70" height="100" src="img/upcoming-event-2.png" alt="table-2"/> 
+                                        <img width="70" height="100" src="./img/upcoming-event-2.png" alt="table-2"/> 
                                     </a>
                                 </td>
                                 <td class="event-artist">W. Illinvois</td>
@@ -135,7 +135,7 @@ const Home = () => {
                                 <td class="event-date">26/03/2021</td>
                                 <td class="event-thumb">
                                     <a href="single-event.html">
-                                        <img width="70" height="100" src="img/upcoming-event-3.png" alt="table-3"/> 
+                                        <img width="70" height="100" src="./img/upcoming-event-3.png" alt="table-3"/> 
                                     </a>
                                 </td>
                                 <td class="event-artist">Apollo Xo</td>
@@ -155,7 +155,7 @@ const Home = () => {
                                 <td class="event-date">26/05/2021</td>
                                 <td class="event-thumb">
                                     <a href="single-event.html">
-                                        <img width="70" height="100" src="img/upcoming-event-4.png" alt="table-4"/> 
+                                        <img width="70" height="100" src="./img/upcoming-event-4.png" alt="table-4"/> 
                                     </a>
                                 </td>
                                 <td class="event-artist">Underground Music</td>
@@ -174,13 +174,13 @@ const Home = () => {
                             <tr>
                                 <td class="event-date">26/06/2021</td>
                                 <td class="event-thumb">
-                                    <a href="single-event.html">
-                                        <img width="70" height="100" src="img/upcoming-event-5.png" alt="table-5"/> 
+                                    <a href="./single-event.html">
+                                        <img width="70" height="100" src="./img/upcoming-event-5.png" alt="table-5"/> 
                                     </a>
                                 </td>
                                 <td class="event-artist">Bhad Bhabie</td>
                                 <td class="event-title">
-                                    <a href="single-event.html">Asian Dolls</a>
+                                    <a href="./single-event.html">Asian Dolls</a>
                                 </td>
                                 <td class="event-ticket-link">
                                     <span class="sold">EXPIRED</span>
@@ -196,8 +196,8 @@ const Home = () => {
                             <ul class="event-list">
                                 <li>
                                     <span class="img-thumb">
-                                        <a href="single-event.html">
-                                            <img width="70" height="100" src="img/upcoming-event-1.png" alt="table-1-1"/>
+                                        <a href="./single-event.html">
+                                            <img width="70" height="100" src="./img/upcoming-event-1.png" alt="table-1-1"/>
                                          </a>
                                     </span>
                                     <p><span>Date :</span> <a href="#">26/09/2022</a></p>
@@ -209,8 +209,8 @@ const Home = () => {
                                 </li>
                                 <li>
                                     <span class="img-thumb">
-                                        <a href="single-event.html">
-                                            <img width="70" height="100" src="img/upcoming-event-2.png" alt="table-1-2"/> 
+                                        <a href="./single-event.html">
+                                            <img width="70" height="100" src="./img/upcoming-event-2.png" alt="table-1-2"/> 
                                         </a>
                                     </span>
                                     <p><span>Date :</span> <a href="#">26/03/2021</a></p>
@@ -222,8 +222,8 @@ const Home = () => {
                                 </li>
                                 <li>
                                     <span class="img-thumb">
-                                        <a href="single-event.html">
-                                            <img width="70" height="100" src="img/upcoming-event-3.png" alt="table-1-3"/> 
+                                        <a href="./single-event.html">
+                                            <img width="70" height="100" src="./img/upcoming-event-3.png" alt="table-1-3"/> 
                                         </a>
                                     </span>
                                     <p><span>Date :</span> <a href="#">26/03/2021</a></p>
@@ -235,8 +235,8 @@ const Home = () => {
                                 </li>
                                 <li>
                                     <span class="img-thumb">
-                                        <a href="single-event.html">
-                                            <img width="70" height="100" src="img/upcoming-event-4.png" alt="table-1-4"/>
+                                        <a href="./single-event.html">
+                                            <img width="70" height="100" src="./img/upcoming-event-4.png" alt="table-1-4"/>
                                          </a>
                                     </span>
                                     <p><span>Date :</span> <a href="#">26/05/2021</a></p>
@@ -247,8 +247,8 @@ const Home = () => {
                                 </li>
                                 <li>
                                     <span class="img-thumb">
-                                        <a href="single-event.html">
-                                            <img width="70" height="100" src="img/upcoming-event-5.png" alt="table-1-5"/> 
+                                        <a href="./single-event.html">
+                                            <img width="70" height="100" src="./img/upcoming-event-5.png" alt="table-1-5"/> 
                                         </a>
                                     </span>
                                     <p><span>Date :</span> <a href="#">26/06/2021</a></p>
@@ -261,7 +261,7 @@ const Home = () => {
                             </ul>
                         </div>
                         <div class="button-view text-center">
-                            <a href="event.html" class="button-basic-1" data-aos="fade-up">VIEW ALL EVENT</a>
+                            <a href="./event.html" class="button-basic-1" data-aos="fade-up">VIEW ALL EVENT</a>
                         </div>
 
                     </div>
@@ -276,7 +276,7 @@ const Home = () => {
                                 <p class="dugem-text"> Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
                             </div>
                             <div class="button-view col-span-6 sm:col-span-12 res:col-span-12" data-aos="fade-up">
-                                <a href="blog.html" class="button-basic-1">ALL JOURNAL</a>
+                                <a href="./blog.html" class="button-basic-1">ALL JOURNAL</a>
                             </div>
                         </div>
                     </div>
@@ -297,7 +297,7 @@ const Home = () => {
                                             </div>
                                             <div class="post-title">
                                                 <h3>
-                                                    <a href="single-post.html">
+                                                    <a href="./single-post.html">
                                                         Maecenas ultrices justo metusoer quis facilisis
                                                     </a>
                                                 </h3>
@@ -311,8 +311,8 @@ const Home = () => {
                                 <div class="swiper-slide">
                                     <div class="swiper-post">
                                         <div class="post-thumb">
-                                            <a href="single-post.html">
-                                                <img src="img/latest-blog-news-2.png" alt="latest-news-img-2"/>
+                                            <a href="./single-post.html">
+                                                <img src="./img/latest-blog-news-2.png" alt="latest-news-img-2"/>
                                                 <div class="dugem-overlay"></div>
                                             </a>
                                         </div>
@@ -322,7 +322,7 @@ const Home = () => {
                                             </div>
                                             <div class="post-title">
                                                 <h3>
-                                                    <a href="single-post.html">
+                                                    <a href="./single-post.html">
                                                         Proin in orci quis elit blandit imperdiet ut eu enim
                                                     </a>
                                                 </h3>
@@ -337,7 +337,7 @@ const Home = () => {
                                     <div class="swiper-post">
                                         <div class="post-thumb">
                                             <a href="single-post.html">
-                                                <img src="img/latest-blog-news-3.png" alt="latest-news-img-3"/>
+                                                <img src="./img/latest-blog-news-3.png" alt="latest-news-img-3"/>
                                                 <div class="dugem-overlay"></div>
                                             </a>
                                         </div>
@@ -347,7 +347,7 @@ const Home = () => {
                                             </div>
                                             <div class="post-title">
                                                 <h3>
-                                                    <a href="single-post.html">
+                                                    <a href="./single-post.html">
                                                         Donec condimentum pulvinorem velitursus vitae
                                                     </a></h3>
                                             </div>
@@ -361,7 +361,7 @@ const Home = () => {
                                     <div class="swiper-post">
                                         <div class="post-thumb">
                                             <a href="single-post.html">
-                                                <img src="img/latest-blog-news-4.png" alt="latest-news-img-4"/>
+                                                <img src="./img/latest-blog-news-4.png" alt="latest-news-img-4"/>
                                                 <div class="dugem-overlay"></div>
                                             </a>
                                         </div>
@@ -386,7 +386,7 @@ const Home = () => {
                                     <div class="swiper-post">
                                         <div class="post-thumb">
                                             <a href="single-post.html">
-                                                <img src="img/latest-blog-news-5.png" alt="latest-news-img-5"/>
+                                                <img src="./img/latest-blog-news-5.png" alt="latest-news-img-5"/>
                                                 <div class="dugem-overlay"></div>
                                             </a>
                                         </div>
