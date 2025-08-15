@@ -1,44 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { HashRouter, Routes, Route } from "react-router-dom";
-
-// Import các component
-import MainLayout from "./components/MainLayout.jsx";
-import About from "./components/About.jsx";
-import Blog from "./components/Blog.jsx";
-import Home from "./components/Home.jsx";
-import Contact from "./components/Contact.jsx";
-import ListCampaign from "./components/ListCampaign.jsx";
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<MainLayout />}>
-          {/* Trang chủ */}
-          <Route index element={<Home />} />
-
-          {/* About */}
-          <Route path="about" element={<About />} />
-
-          {/* Blog */}
-          <Route path="blog" element={<Blog />} />
-
-          {/* Contact */}
-          <Route path="contact" element={<Contact />} />
-          
-          {/* List Campaign */} 
-          <Route path="event" element={<ListCampaign />} />
-        </Route>
-      </Routes>
-    </HashRouter>
-  </React.StrictMode>
-);
-
-
+// src/main.jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
+
+import '../css/aos.css';
+import '../css/style1.css';
+import '../css/swiper.min.css';
+import '../css/lightgallery.min.css';
+import '../css/plugin.css';
+import '../css/sm-core-css.css';
+import '../css/sm-clean.css';
+import '../css/thaw-flex.css';
+import '../css/font.css';
+import '../css/fontawesome.min.css';
+import '../css/style.css';
+import '../css/responsive.css';
+
+// thêm các file khác nếu cần
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
