@@ -19,16 +19,16 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route index element={<Home />} />
 
           {/* About */}
-          <Route path="about" element={<About />} />
+          <Route path="/about" element={<About />} />
 
           {/* Blog */}
-          <Route path="blog" element={<Blog />} />
+          <Route path="/blog" element={<Blog />} />
 
           {/* Contact */}
-          <Route path="contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
           
           {/* List Campaign */} 
-          <Route path="event" element={<ListCampaign />} />
+          <Route path="/event" element={<ListCampaign />} />
         </Route>
       </Routes>
     </HashRouter>
