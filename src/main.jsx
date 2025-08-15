@@ -1,4 +1,4 @@
-import React from "react";
+import React from "./node_modules /react";
 import ReactDOM from "react-dom/client";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
