@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/about" element={<About />} />
 
           {/* Blog */}
-          <Route path="/blog" element={<Blog />} />
+          <Route path=".blog" element={<Blog />} />
 
           {/* Contact */}
           <Route path="/contact" element={<Contact />} />
