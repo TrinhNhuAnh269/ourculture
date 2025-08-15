@@ -1,6 +1,5 @@
 /* Removed Tailwind directives due to unsupported build process */
-
-@import url('/main-layout/css/aos.css');
+@import url('./main-layout/css/aos.css');
 @import url('/main-layout/css/style1.css');
 @import url('/main-layout/css/swiper.min.css');
 @import url('/main-layout/css/lightgallery.min.css');
@@ -12,6 +11,7 @@
 @import url('/main-layout/css/fontawesome.min.css');
 @import url('/main-layout/style.css');
 @import url('/main-layout/css/responsive.css');
+
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/a-love-of-thunder');
