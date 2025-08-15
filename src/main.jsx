@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 // Import các component
-import MainLayout from "./components/MainLayout.jsx";
-import About from "./components/About.jsx";
-import Blog from "./components/Blog.jsx";
-import Home from "./components/Home.jsx";
-import Contact from "./components/Contact.jsx";
-import ListCampaign from "./components/ListCampaign.jsx";
+import MainLayout from "./src/components/MainLayout.jsx";
+import About from "./src/components/About.jsx";
+import Blog from "./src/components/Blog.jsx";
+import Home from "./src/components/Home.jsx";
+import Contact from "./src/components/Contact.jsx";
+import ListCampaign from "./src/components/ListCampaign.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
