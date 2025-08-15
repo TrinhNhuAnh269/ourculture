@@ -4,8 +4,10 @@ import React, { useState, useEffect } from "react";
 import AdminDashboard from './AdminDashboard';
 import LoginPage from './LoginPage';
 import About from './About.jsx';
-import Blog from './Blog';
-import Contact from './Contact';
+import Blog from './Blog.jsx';
+import Contact from './Contact.jsx';
+import { Outlet } from "react-router-dom";
+
 
 
 
@@ -92,7 +94,7 @@ const MainLayout = ({ children }) => {
       ) : user ? (
         <AdminDashboard user={user} onLogout={() => setUser(null)} />
       ) : (
-        children
+        <Outlet />
       )}
     </main>
 

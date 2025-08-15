@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MainLayout from "./components/ui/MainLayout.jsx";
-import Home from "./components/ui/Home.jsx";
-import About from "./components/ui/About.jsx";
+import MainLayout from "./components/MainLayout.jsx";
+import About from "./components/About.jsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -11,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainLayout />}>
-          <Route index element={<Home />} />
+          <Route index element={<MainLayout />} />
           <Route path="about" element={<About />} />
         </Route>
       </Routes>
